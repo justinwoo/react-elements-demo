@@ -1,0 +1,55 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/kimagure/react-if-else.git' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'https://github.com/kimagure/react-if-else.git', null ]
+6 verbose cache add name=undefined spec="https://github.com/kimagure/react-if-else.git" args=["https://github.com/kimagure/react-if-else.git",null]
+7 verbose parsed url { protocol: 'https:',
+7 verbose parsed url   slashes: true,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: 'github.com',
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: 'github.com',
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '/kimagure/react-if-else.git',
+7 verbose parsed url   path: '/kimagure/react-if-else.git',
+7 verbose parsed url   href: 'https://github.com/kimagure/react-if-else.git' }
+8 silly lockFile 53d0754b-b-com-kimagure-react-if-else-git https://github.com/kimagure/react-if-else.git
+9 verbose lock https://github.com/kimagure/react-if-else.git /Users/jwoo/.npm/53d0754b-b-com-kimagure-react-if-else-git.lock
+10 verbose addRemoteTarball [ 'https://github.com/kimagure/react-if-else.git', null ]
+11 info retry fetch attempt 1 at 11:17:23
+12 verbose fetch to= /var/folders/bl/sqh72dmd3kvfl_q4m8js349h0000gn/T/npm-71785-qvsxTh0C/github.com/kimagure/react-if-else.git
+13 http GET https://github.com/kimagure/react-if-else.git
+14 http 200 https://github.com/kimagure/react-if-else.git
+15 verbose tar unpack /var/folders/bl/sqh72dmd3kvfl_q4m8js349h0000gn/T/npm-71785-qvsxTh0C/github.com/kimagure/react-if-else.git
+16 silly lockFile 4cdb701f-imagure-react-if-else-git-unpack tar:///var/folders/bl/sqh72dmd3kvfl_q4m8js349h0000gn/T/npm-71785-qvsxTh0C/github.com/kimagure/react-if-else.git-unpack
+17 verbose lock tar:///var/folders/bl/sqh72dmd3kvfl_q4m8js349h0000gn/T/npm-71785-qvsxTh0C/github.com/kimagure/react-if-else.git-unpack /Users/jwoo/.npm/4cdb701f-imagure-react-if-else-git-unpack.lock
+18 silly lockFile 4e8f9b50-b-com-kimagure-react-if-else-git tar:///var/folders/bl/sqh72dmd3kvfl_q4m8js349h0000gn/T/npm-71785-qvsxTh0C/github.com/kimagure/react-if-else.git
+19 verbose lock tar:///var/folders/bl/sqh72dmd3kvfl_q4m8js349h0000gn/T/npm-71785-qvsxTh0C/github.com/kimagure/react-if-else.git /Users/jwoo/.npm/4e8f9b50-b-com-kimagure-react-if-else-git.lock
+20 silly gunzTarPerm modes [ '755', '644' ]
+21 error not a package /var/folders/bl/sqh72dmd3kvfl_q4m8js349h0000gn/T/npm-71785-qvsxTh0C/github.com/kimagure/react-if-else.git
+22 silly lockFile 4cdb701f-imagure-react-if-else-git-unpack tar:///var/folders/bl/sqh72dmd3kvfl_q4m8js349h0000gn/T/npm-71785-qvsxTh0C/github.com/kimagure/react-if-else.git-unpack
+23 silly lockFile 4cdb701f-imagure-react-if-else-git-unpack tar:///var/folders/bl/sqh72dmd3kvfl_q4m8js349h0000gn/T/npm-71785-qvsxTh0C/github.com/kimagure/react-if-else.git-unpack
+24 silly lockFile 4e8f9b50-b-com-kimagure-react-if-else-git tar:///var/folders/bl/sqh72dmd3kvfl_q4m8js349h0000gn/T/npm-71785-qvsxTh0C/github.com/kimagure/react-if-else.git
+25 silly lockFile 4e8f9b50-b-com-kimagure-react-if-else-git tar:///var/folders/bl/sqh72dmd3kvfl_q4m8js349h0000gn/T/npm-71785-qvsxTh0C/github.com/kimagure/react-if-else.git
+26 silly lockFile 53d0754b-b-com-kimagure-react-if-else-git https://github.com/kimagure/react-if-else.git
+27 silly lockFile 53d0754b-b-com-kimagure-react-if-else-git https://github.com/kimagure/react-if-else.git
+28 error Error: ENOENT, open '/var/folders/bl/sqh72dmd3kvfl_q4m8js349h0000gn/T/npm-71785-qvsxTh0C/github.com/kimagure/react-if-else.git-unpack/package.json'
+29 error If you need help, you may report this *entire* log,
+29 error including the npm and node versions, at:
+29 error     <http://github.com/npm/npm/issues>
+30 error System Darwin 14.0.0
+31 error command "node" "/usr/local/bin/npm" "install" "https://github.com/kimagure/react-if-else.git"
+32 error cwd /Users/jwoo/github/react-elements-demo
+33 error node -v v0.10.32
+34 error npm -v 1.4.28
+35 error path /var/folders/bl/sqh72dmd3kvfl_q4m8js349h0000gn/T/npm-71785-qvsxTh0C/github.com/kimagure/react-if-else.git-unpack/package.json
+36 error code ENOENT
+37 error errno 34
+38 verbose exit [ 34, true ]
